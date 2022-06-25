@@ -1,4 +1,4 @@
-package main
+package kata
 
 func multipleOfIndex(ints []int) (slc []int) {
 	for i, v := range ints {

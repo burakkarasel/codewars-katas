@@ -1,4 +1,4 @@
-package main
+package kata
 
 func Well(x []string) (r string) {
 	c := 0

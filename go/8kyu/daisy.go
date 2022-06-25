@@ -1,4 +1,4 @@
-package main
+package kata
 
 func HowMuchILoveYou(i int) string {
 	return []string{"not at all", "I love you", "a little", "a lot", "passionately", "mady"}[i%6]

@@ -1,4 +1,4 @@
-package main
+package kata
 
 func SquareSum(numbers []int) int {
 	total := 0

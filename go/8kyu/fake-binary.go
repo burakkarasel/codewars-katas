@@ -1,4 +1,4 @@
-package main
+package kata
 
 func FakeBin(x string) string {
 	b := []byte(x)

@@ -1,4 +1,4 @@
-package main
+package kata
 
 func ReverseSeq(n int) (slc []int) {
 	for i := n; i > 0; i-- {

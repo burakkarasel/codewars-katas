@@ -1,4 +1,4 @@
-package main
+package kata
 
 func EachCons(arr []int, n int) [][]int {
 	var newSlc [][]int

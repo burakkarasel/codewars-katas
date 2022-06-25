@@ -1,4 +1,4 @@
-package main
+package kata
 
 func CountPositivesSumNegatives(numbers []int) []int {
 	sums, count := 0, 0

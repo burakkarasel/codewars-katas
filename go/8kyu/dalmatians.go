@@ -1,4 +1,4 @@
-package main
+package kata
 
 func HowManyDalmatians(n int) (result string) {
 	r := []string{"Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIONS!!!"}
