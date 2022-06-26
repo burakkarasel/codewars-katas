@@ -15,7 +15,7 @@ func VertMirror(s string) string {
 	return strings.Join(slc, "\n")
 }
 
-// HorMirror returns given strings each word reorganized in reverse
+// HorMirror returns given strings each words order in string reorganized in reverse
 func HorMirror(s string) string {
 	slc := strings.Split(s, "\n")
 	for i, j := 0, len(slc)-1; i < j; i, j = i+1, j-1 {
