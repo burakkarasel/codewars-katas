@@ -1,6 +1,14 @@
 package kata
 
 func DigitalRoot(n int) int {
+	for n > 9 {
+		n = n%10 + n/10
+	}
+	return n
+}
+
+// obsolote
+/* func DigitalRoot(n int) int {
 	var newN int
 	for n > 0 {
 		newN += n % 10
@@ -11,4 +19,4 @@ func DigitalRoot(n int) int {
 		}
 	}
 	return newN
-}
+} */
